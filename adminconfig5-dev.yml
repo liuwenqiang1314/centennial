@@ -7,13 +7,6 @@ spring:
     url: jdbc:mysql://localhost:3306/centennial?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false
     username: root
     password: 123456
-redis:
-  host: 114.115.150.108
-  port: 6379
-  password: '13902128587'
-  database: 3
-  timeout: 30000
-  defaultExpiration: 3600
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.centennial.station.entity    # 所有Entity别名类所在包
